@@ -8,8 +8,6 @@ Dive into the world of multiprogramming and discover how real operating systems 
 
 ## 🏗️ System Architecture
 
-![OS Simulator Architecture](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/architecture-diagram.png)
-
 The simulator is built on a modular architecture, mimicking the core components of a real OS:
 - **CPU Module**: Emulates instruction execution and context switching.
 - **Memory Module**: Simulates RAM, paging, and address translation.
@@ -43,6 +41,7 @@ The simulator is built on a modular architecture, mimicking the core components 
 - **Device Driver Simulation**  
 - **File System Layer (future release)**  
 - **User/Kernel Mode Switching**
+  
 
 ---
 
@@ -50,14 +49,17 @@ The simulator is built on a modular architecture, mimicking the core components 
 
 - **Learn OS Fundamentals:**  
   Grasp core concepts like multiprogramming, interrupt handling, memory management, and process control in a hands-on way.
+
 - **Tech-Driven Design:**  
   Modern code structure, clear separation of responsibilities, and focus on real-world scenarios.
+
 - **Interactive & Educational:**  
   Ideal for students, educators, and curious developers ready to dive into OS inner workings—without needing real hardware.
-- **Trace & Debug:**  
+  - **Trace & Debug:**  
   Step-by-step simulation with trace logs for every process, interrupt, and memory operation.
 - **Extensible & Customizable:**  
   Easily add new instructions, memory models, or scheduling algorithms for experiments and assignments.
+
 
 ---
 
@@ -73,14 +75,6 @@ The simulator is built on a modular architecture, mimicking the core components 
 
 ---
 
-## 🖼️ Example: Process Lifecycle
-
-![Process Lifecycle Diagram](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/process-lifecycle.png)
-
-*Above: Typical process states and transitions visualized in the simulator*
-
----
-
 ## 🔧 Getting Started
 
 1. **Clone the repo:**  
@@ -91,53 +85,15 @@ The simulator is built on a modular architecture, mimicking the core components 
    ```sh
    cd Multiprogramming-Operating-System-/src
    ```
-3. **Build and Run the simulation:**  
-   - Using `make`:
-     ```sh
-     make
-     ./simulator
-     ```
-   - Or using `gcc`:
-     ```sh
-     gcc -o simulator *.c
-     ./simulator
-     ```
-   - For C++:
-     ```sh
-     g++ -o simulator *.cpp
-     ./simulator
-     ```
-4. **Configure simulation parameters:**  
-   Edit `config.ini` or pass command-line arguments for number of processes, memory size, scheduling algorithm, etc.
-
----
-
-## 🗃️ Directory Structure
-
-```
-Multiprogramming-Operating-System-/
-│
-├── src/              # Core simulator code
-│   ├── cpu.c         # CPU emulation
-│   ├── memory.c      # Memory and paging logic
-│   ├── pcb.c         # Process Control Block management
-│   ├── interrupt.c   # Interrupt handling routines
-│   └── ...
-├── assets/           # Diagrams, images for documentation
-├── tests/            # Test cases and process workloads
-├── docs/             # Extra documentation
-├── config.ini        # Default configuration
-└── README.md         # This file
-```
+3. **Run the simulation:**  
+   (Instructions for building/running your code, e.g., using `make`, `gcc`, or a specific script.)
 
 ---
 
 ## 📚 Learn More
 
-- **[Wiki](./wiki)** — In-depth documentation & tutorials (architecture breakdown, code walkthroughs, OS concepts)
+- **[Wiki](./wiki)** — In-depth documentation & tutorials
 - **[Issues](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/issues)** — Report bugs or suggest features
-- **Sample Assignments:**  
-  Try implementing new scheduling algorithms, add device handlers, simulate deadlocks and recovery!
 
 ---
 
@@ -146,35 +102,6 @@ Multiprogramming-Operating-System-/
 - C / C++ / Assembly (adapt as appropriate)
 - Modular structure for extensibility
 - Designed for clarity, accuracy, and learning
-- Optional: Python for scripting workloads or visualization
-
----
-
-## 🤝 Contribution Guidelines
-
-- Fork the repo and create your feature branch
-- Add tests for new features
-- Submit a pull request with a clear description
-- Check [CONTRIBUTING.md](./CONTRIBUTING.md) for coding standards, review process, and tips
-
----
-
-## 🤖 About GitHub Copilot
-
-This project leverages GitHub Copilot to generate code snippets, documentation, and comments.  
-Copilot helps ensure:
-- Clean, readable code
-- Best practices for maintainability
-- Extra inline explanations for tough OS concepts
-
----
-
-## 🏆 Credits & Inspiration
-
-Inspired by classic OS textbooks and university projects such as:
-- "Operating System Concepts" by Silberschatz, Galvin, Gagne
-- "Modern Operating Systems" by Andrew S. Tanenbaum
-- MIT xv6 and MINIX microkernel
 
 ---
 
