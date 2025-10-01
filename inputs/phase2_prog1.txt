@@ -1,0 +1,40 @@
+# Normal Program - No Error
+$AMJ000100040001
+GD10PD10H
+$DTA
+HELLO
+$END0001
+
+# Out of Data Error
+$AMJ000200020001
+GD10GD20PD10H
+$DTA
+DATA
+$END0002
+
+# Line Limit Exceeded Error (TLL=1, two prints)
+$AMJ000300030001
+GD10PD10PD20H
+$DTA
+LINE1
+LINE2
+$END0003
+
+# Invalid Opcode Error
+$AMJ000400040001
+XY10H
+$DTA
+$END0004
+
+# Operand Error (invalid memory reference)
+$AMJ000500050001
+LR99H
+$DTA
+$END0005
+
+# Invalid Page Fault (PD instruction triggers page fault)
+$AMJ000600040001
+PD10H
+$DTA
+DATA
+$END0006

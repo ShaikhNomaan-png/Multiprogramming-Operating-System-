@@ -1,0 +1,19 @@
+HELLO
+Terminated Normally. No Error
+
+
+DATA
+Terminated abnormally due to Out of Data
+
+
+LINE1
+Terminated abnormally due to Line Limit Exceeded
+
+
+Terminated abnormally due to Operation Code Error
+
+
+Terminated abnormally due to Operand Error
+
+
+Terminated abnormally due to Invalid Page Fault

@@ -1,0 +1,17 @@
+VIIT
+VIT
+NOT
+SAME
+
+1__0_0_1__
+NOT
+PALINDROME
+
+HELLO
+Terminated abnormally due to Out of Data
+
+TEST
+Terminated Normally. No Error
+
+DATA
+Terminated Normally. No Error
