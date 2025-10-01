@@ -1,9 +1,23 @@
 # 🖥️ Multiprogramming Operating System Simulator
 
-![OS Banner](https://imgur.com/6XvT9Rr.png)
-
 Welcome to the **Multiprogramming OS Simulator**!  
 This project is a hands-on technological journey into fundamental concepts of operating systems, featuring interactive CPU, memory, and process management simulations.
+
+---
+
+## 🖼️ Architecture Overview
+
+![OS Simulator Architecture](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/architecture-diagram.png)
+
+*Above: High-level architecture of the simulator (CPU, Memory, PCB, Paging, Interrupts)*
+
+---
+
+## 🚦 Process Lifecycle Example
+
+![Process Lifecycle Diagram](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/process-lifecycle.png)
+
+*Above: Typical process states and transitions visualized in the simulator*
 
 ---
 
@@ -11,17 +25,13 @@ This project is a hands-on technological journey into fundamental concepts of op
 
 - **Phase 1:**  
   - **CPU & Machine Simulation** ⚙️  
-    <img src="https://imgur.com/1bCjJ6R.png" alt="CPU Simulation Diagram" width="350"/>
   - **Supervisor Calls via Interrupts** 🚨  
-    <img src="https://imgur.com/yq8Jj6N.png" alt="Interrupt Handling Diagram" width="350"/>
 
 - **Phase 2:**  
   - **Paging Implementation** 🗂️  
-    <img src="https://imgur.com/9c8Bk9K.png" alt="Paging Diagram" width="350"/>
   - **Robust Error Handling** ❌  
   - **Interrupt Generation & Servicing** 🔄  
   - **Process Control Block (PCB) Structure** 📊  
-    <img src="https://imgur.com/9Txh8Qe.png" alt="PCB Structure Diagram" width="350"/>
 
 ---
 
@@ -36,6 +46,9 @@ This project is a hands-on technological journey into fundamental concepts of op
 - **Interactive & Educational:**  
   Ideal for students, educators, and curious developers ready to dive into OS inner workings—without needing real hardware.
 
+- **Copilot Assisted:**  
+  Parts of this simulator are enhanced by GitHub Copilot, ensuring clean code, modern best practices, and insightful comments to help you learn as you read.
+
 ---
 
 ## 💡 Features
@@ -45,6 +58,8 @@ This project is a hands-on technological journey into fundamental concepts of op
 - Implements paging for efficient memory management
 - Manages process information via PCB data structures
 - Integrates error detection and handling for robust simulation
+- **Copilot Insights:**  
+  Many functions include Copilot-generated explanations to guide your understanding
 
 ---
 
@@ -75,6 +90,16 @@ This project is a hands-on technological journey into fundamental concepts of op
 - C / C++ / Assembly (adapt as appropriate)
 - Modular structure for extensibility
 - Designed for clarity, accuracy, and learning
+
+---
+
+## 🤖 About GitHub Copilot
+
+This project leverages GitHub Copilot to generate code snippets, documentation, and comments.  
+Copilot helps ensure:
+- Clean, readable code
+- Best practices for maintainability
+- Extra inline explanations for tough OS concepts
 
 ---
 
