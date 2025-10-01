@@ -1,3 +1,4 @@
+//  https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/edit/master/src/os2.cpp
 #include <iostream>
 #include <fstream>
 #include <string.h>
@@ -116,4 +117,8 @@ void load(){
 }
 
 // ------------------- Main -------------------
-int main(){ load(); fin.close(); fout.close(); return 0; }
+int main(){
+    load(); 
+    fin.close(); 
+    fout.close(); 
+    return 0; }
