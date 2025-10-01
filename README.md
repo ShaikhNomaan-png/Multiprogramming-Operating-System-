@@ -1,72 +1,82 @@
 # 🖥️ Multiprogramming Operating System Simulator
 
-![Banner](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/os_banner.png)
+![OS Banner](https://imgur.com/6XvT9Rr.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/workflow/status/ShaikhNomaan-png/Multiprogramming-Operating-System-/CI)](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/actions)
-[![Languages](https://img.shields.io/github/languages/top/ShaikhNomaan-png/Multiprogramming-Operating-System-)](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/src)
-[![Stars](https://img.shields.io/github/stars/ShaikhNomaan-png/Multiprogramming-Operating-System-?style=social)](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/stargazers)
+Welcome to the **Multiprogramming OS Simulator**!  
+This project is a hands-on technological journey into fundamental concepts of operating systems, featuring interactive CPU, memory, and process management simulations.
 
 ---
 
 ## 🚀 Tech Highlights
 
-<img src="https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/cpu_simulation.png" alt="CPU Simulation" width="400">  
-**Phase 1:** CPU & Machine Simulation ⚙️ | Supervisor Calls via Interrupts 🚨
+- **Phase 1:**  
+  - **CPU & Machine Simulation** ⚙️  
+    <img src="https://imgur.com/1bCjJ6R.png" alt="CPU Simulation Diagram" width="350"/>
+  - **Supervisor Calls via Interrupts** 🚨  
+    <img src="https://imgur.com/yq8Jj6N.png" alt="Interrupt Handling Diagram" width="350"/>
 
-<img src="https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/paging_diagram.png" alt="Paging Diagram" width="400">  
-**Phase 2:** Paging 🗂️ | Error Handling ❌ | Interrupt Generation & Servicing 🔄 | PCB Data Structure 📊
-
----
-
-## 📊 Architecture Diagram
-
-```mermaid
-flowchart TD
-    CPU[CPU]
-    MEM[Memory]
-    PCB[Process Control Block]
-    INTR[Interrupt Handler]
-    CPU -->|Executes| PCB
-    PCB -->|Requests| INTR
-    INTR -->|Handles| MEM
-    MEM -->|Paging| CPU
-```
-
----
-
-## 💻 Simulation Screenshots
-
-![Run Screenshot](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/simulation_run.png)
-![Interrupt Example](https://raw.githubusercontent.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/main/assets/interrupt_example.gif)
+- **Phase 2:**  
+  - **Paging Implementation** 🗂️  
+    <img src="https://imgur.com/9c8Bk9K.png" alt="Paging Diagram" width="350"/>
+  - **Robust Error Handling** ❌  
+  - **Interrupt Generation & Servicing** 🔄  
+  - **Process Control Block (PCB) Structure** 📊  
+    <img src="https://imgur.com/9Txh8Qe.png" alt="PCB Structure Diagram" width="350"/>
 
 ---
 
 ## 🌐 Why Use This Simulator?
 
 - **Learn OS Fundamentals:**  
-  Grasp multiprogramming, interrupts, memory management, and process control interactively.
+  Grasp core concepts like multiprogramming, interrupt handling, memory management, and process control in a hands-on way.
 
 - **Tech-Driven Design:**  
-  Modern code, real-world scenarios, modular architecture.
+  Modern code structure, clear separation of responsibilities, and focus on real-world scenarios.
 
-- **Educational & Interactive:**  
-  Perfect for students, educators, and developers.
+- **Interactive & Educational:**  
+  Ideal for students, educators, and curious developers ready to dive into OS inner workings—without needing real hardware.
 
 ---
 
-## ⚡ Tech Stack
+## 💡 Features
 
-- **Languages:** C / C++ / Assembly
-- **Structure:** Modular, extensible, educational
+- Simulates multi-process CPU scheduling and execution
+- Handles supervisor calls and interrupts dynamically
+- Implements paging for efficient memory management
+- Manages process information via PCB data structures
+- Integrates error detection and handling for robust simulation
+
+---
+
+## 🔧 Getting Started
+
+1. **Clone the repo:**  
+   ```sh
+   git clone https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-.git
+   ```
+2. **Navigate to the src directory:**  
+   ```sh
+   cd Multiprogramming-Operating-System-/src
+   ```
+3. **Run the simulation:**  
+   (Instructions for building/running your code, e.g., using `make`, `gcc`, or a specific script.)
 
 ---
 
 ## 📚 Learn More
 
-- **[Wiki](./wiki)** — Documentation & tutorials  
-- **[Issues](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/issues)** — Report bugs / suggest features
+- **[Wiki](./wiki)** — In-depth documentation & tutorials
+- **[Issues](https://github.com/ShaikhNomaan-png/Multiprogramming-Operating-System-/issues)** — Report bugs or suggest features
 
 ---
 
-**Contributions welcome! Level up your OS knowledge and join the simulation revolution! 💻⚡**
+## ⚡ Tech Stack
+
+- C / C++ / Assembly (adapt as appropriate)
+- Modular structure for extensibility
+- Designed for clarity, accuracy, and learning
+
+---
+
+**Contributions welcome!**  
+Level up your OS knowledge and join the simulation revolution! 💻⚡
